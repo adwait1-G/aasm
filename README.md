@@ -10,5 +10,5 @@ This doesn't assembly files into object files. It just gives the machine equival
 Inspiration: 
 
 1. rasm2 is awesome!
-2. This [talk](https://www.youtube.com/watch?v=eunYrrcxXfw) - This dude XlogicX has written a tool called irasm which shows that assembly-machine code mapping is not 1:1. 
-3. And I have never written a tool like this before. So, though of writing this!
+2. This [talk](https://www.youtube.com/watch?v=eunYrrcxXfw) - This dude XlogicX has written a tool called [irasm](https://github.com/XlogicX/irasm) which shows that assembly-machine code mapping is not 1:1. 
+3. And I have never written a tool like this before. So, thought of writing this!
