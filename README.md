@@ -1,7 +1,7 @@
 # aasm
 This is an simple x86_64 assembler written in Python. 
 
-* This is a tool aimed to be developed in days.So, it may not follow principles of Software Engineering. 
+* This is a tool aimed to be developed in a couple days.So, it may not follow principles of Software Engineering. 
 * Main aim is to read the Intel Manual and understand the wide range of instructions present. 
 * Then write code to asssemble instructions. 
 
