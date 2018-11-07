@@ -1,5 +1,6 @@
 # aasm
-This is a simple x86_64 assembler written in Python. 
+This is a simple x86_64 assembler written in Ruby. 
+
 
 * This is a tool aimed to be developed in a couple days.So, it may not follow principles of Software Engineering. 
 * Main aim is to read the Intel Manual and understand the wide range of instructions present. 
