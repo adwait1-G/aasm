@@ -37,42 +37,5 @@ You can use this tool if you quickly want assembly or disassembly of some Payloa
 
 ## How do you use it?
 
-1. It is very simple. There are only 2 commands in nasmshell. They are **asm** and **disasm**. 
-
-2. Examples for **asm** : 
-
-    a. Simple single instructions can be assembled. 
-
-        nasmshell>>> asm xor eax, ebx
-        1                                  section .text
-        2                                          global _start
-        3
-        4                                  _start :
-        5 00000000 31D8                    xor eax, ebx
-
-    b. If you want machine code of multiple instructions at the same time, you can do separate the commands by a **;** : 
-
-        nasmshell>>> asm xor eax, ebx; inc r15; mov al, byte[rsi]
-        1                                  section .text
-        2                                          global _start
-        3
-        4                                  _start :
-        5 00000000 31D8                    xor eax, ebx
-        6 00000002 49FFC7                   inc r15
-        7 00000005 8A06                     mov al, byte[rsi]
-
-
-3. Examples for **disasm** : This is a work under progress!
-
-
-
-
-
-
-
-
-
-
-
-
+1. It is very simple. The **help** command will help you out :P
 
