@@ -1,12 +1,11 @@
 # aasm
-This is a simple x86_64 assembler written in Ruby. 
+This is a simple x86_64 assembler written in Python.
 
-
-* This is a tool aimed to be developed in a couple days.So, it may not follow principles of Software Engineering. 
 * Main aim is to read the Intel Manual and understand the wide range of instructions present. 
+
 * Then write code to asssemble instructions. 
 
-This doesn't assembly files into object files. It just gives the machine equivalent of 1 or more assembly instructions seperated by a **;**
+At the moment, the goal is to convert assembly instructions into machine code according to the Intel developer manual. 
 
 Inspiration: 
 
